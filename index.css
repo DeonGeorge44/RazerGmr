@@ -1,0 +1,785 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color:gray
+    }
+.container{
+    width: 100%;
+    height: 85px;
+    background-color: chartreuse;
+}
+.mainlogonav{
+    
+}
+.navbar{
+    position: relative;
+    height: 80px;
+    background-color: black;
+    
+}
+
+.ulmainlogonav {
+    /* position: absolute; */
+    display: flex;
+    list-style: none;
+    
+    
+    justify-content: space-around;
+   
+    height: 40px;
+    padding-bottom: 0px;
+    padding-top: 22px;
+    
+
+}
+.razorlogo{
+   padding: 0px 0px;
+   
+}
+.logorazer{
+    height:0px;
+    width: 0px;
+    padding-right: 0px;
+}
+.ulmainlogonav a{
+    color:darkgray
+}
+.secondnav{
+    width: 100%;
+    height: 50px;
+    background-color:#555;
+    padding-top: 1px;
+    display: flex;
+    justify-content: center;
+
+}
+.videotext video{
+    height:fit-content;
+    width: 100%;
+    position: relative;
+    }
+.text20{
+    color: aliceblue;
+    position: absolute;
+    top: 370px;
+    left: 450px;
+}
+#subtxt20{
+position: relative;
+left: 144px;
+}
+.img1{
+    position: relative;
+    background-image: url(razer-blade14-2022-homepage-desktop.jpg);
+    color: aliceblue;
+    width:100%;
+    height: 94vh;
+    background-repeat: no-repeat;
+}
+.img11{
+    position: absolute;
+    left: 547px;
+    top: 202px;
+}
+.img12{
+    position:absolute;
+    left:504px;
+    top:159px;
+}
+.img21{
+    position:absolute;
+    left:580px;
+    top: 248px;
+    font-size: 20px;
+    color: aliceblue;
+    
+    }
+
+ .img21:hover{
+    border-bottom:1px solid white ;
+ }   
+
+ .arrow{
+    position:absolute;
+    font-size: 28px;
+    left: 698px;
+    top:271px;
+
+
+ }
+ .arrow:hover{
+color: aquamarine;
+ }
+.buyhover{
+    position:absolute;
+    left:731px;
+    top: 244px;
+    font-size: 22px;
+    color: aliceblue;
+    
+}
+.buyhover:hover{
+    border-bottom:1px solid white
+     }
+.arrow1{
+    position: absolute;
+    font-size:28px;
+    left: 785px;
+    top: 270px;
+}  
+.arrow1:hover{
+        color: aquamarine;
+         }
+ .manset12{
+   width: 100%;
+   height:700px;
+ }
+ .manset1{
+    position:relative;
+ }
+ .mansetque{
+    position: absolute;
+    left: 447px;
+    top: 108px;
+    color: azure;
+
+ }
+ .mansetdot{
+    position: absolute;
+    left: 605px;
+    top: 161px;
+    color: azure;
+ }
+ .manset3{
+    position: absolute;
+    font-size: 20px;
+    color: azure;
+    left: 688px;
+    bottom: 420px;
+    cursor: pointer;
+ }
+ .manset3:hover{
+    border-bottom:1px solid white;
+ }
+ .manset4{
+    position:absolute;
+    font-size: 28px;
+    color: aliceblue;
+    right: 701px;
+    bottom:441px;
+
+
+ }
+ .manset4:hover{
+    color: aquamarine;
+ }
+ .gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(2,750px);
+    grid-auto-rows: 450px;
+    grid-gap: 10px;
+    background-color:#555;
+    margin-top: 4px;
+    
+}
+
+.grid1 {
+    
+    color: #fff;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-size: 0px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: none;
+    background-image: url(gamingconsole1.jpg);
+    background-color: #555;
+    position: relative;
+    background-size: contain;
+
+
+}
+.grid1 h2{
+    color: #fff;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: none;
+    position: absolute;
+    top: 15px;
+    left: 96px;
+}
+.grid1 h4{
+    font-size: 20px;
+    color: #fff;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    line-height: 1.3;
+    position: absolute;
+    top: 62px;
+    left: 291px;
+}
+.gmeconsle{
+    position:absolute;
+    left:211px;
+    top: 95px;
+    font-size: 18px;
+    color: aliceblue;
+    
+    }
+    .gmeconsle:hover{
+        border-bottom:1px solid white ;
+     }
+ .tag1{
+   
+        position: absolute;
+        font-size:25px;
+        left: 317px;
+        top: 122px;
+}
+.tag1:hover{
+    color: aquamarine;
+     }      
+.gmeconsle2{
+    position:absolute;
+    left:354px;
+    top: 95px;
+    font-size: 18px;
+    color: aliceblue;
+    
+    }
+    .gmeconsle2:hover{
+        border-bottom:1px solid white ;
+     }
+     .tag2{
+   
+        position: absolute;
+        font-size:27px;
+        left: 441px;
+        top: 122px;
+}
+.tag2:hover{
+    color: aquamarine;
+     }      
+.grid2{
+    
+    color: #fff;
+    
+    
+    font-weight: 500;
+    line-height: 1;
+    
+    background-image: url(hyperpolling-wireless-dongle-mobile.jpg);
+    background-color: #555;
+    position: relative;
+    background-repeat:no-repeat;
+    width: 759px;
+    height: 449px;
+    background-size: 98.7% 100%;
+}
+.grid2 h2{
+    color: #fff;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: none;
+    position: absolute;
+    top: 15px;
+    left: 96px;
+}
+.grid2 h4{
+    font-size: 20px;
+    color: #fff;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    line-height: 1.3;
+    position: absolute;
+    top: 62px;
+    left: 188px;
+}
+.dongle1{
+    position:absolute;
+    left:211px;
+    top: 95px;
+    font-size: 18px;
+    color: aliceblue;
+    
+    }
+    .dongle1:hover{
+        border-bottom:1px solid white ;
+     }
+ .dongle2{
+   
+        position: absolute;
+        font-size:25px;
+        left: 317px;
+        top: 122px;
+}
+.dongle2:hover{
+    color: aquamarine;
+     }      
+.dongle3{
+    position:absolute;
+    left:354px;
+    top: 95px;
+    font-size: 18px;
+    color: aliceblue;
+    
+    }
+    .dongle3:hover{
+        border-bottom:1px solid white ;
+     }
+     .dongle4{
+   
+        position: absolute;
+        font-size:27px;
+        left: 441px;
+        top: 122px;
+}
+.dongle4:hover{
+    color: aquamarine;
+     }      
+
+
+
+.grid3{
+    color: #fff;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-size: 0px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: none;
+    background-image: url(razrlap.jpg);
+    background-color: #555;
+    position: relative;
+   background-size:100% 100%;
+    }
+    .grid3 h2{
+        color: #fff;
+        font-family: "RazerF5",Arial,Helvetica,sans-serif;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 1;
+        text-transform: none;
+        position: absolute;
+        top: 10px;
+        left: 181px;
+    }
+    .grid3 h4{
+        font-size: 20px;
+        color: #fff;
+        font-family: "RazerF5",Arial,Helvetica,sans-serif;
+        font-weight: 300;
+        line-height: 1.3;
+        position: absolute;
+        top: 62px;
+        left: 177px;
+    }
+    .grid3e{
+        position:absolute;
+        left:211px;
+        top: 95px;
+        font-size: 18px;
+        color: aliceblue;
+        
+        }
+        .grid3 h5:hover{
+            border-bottom:1px solid white ;
+         }
+     .grid3d{
+       
+            position: absolute;
+            font-size:25px;
+            left: 317px;
+            top: 122px;
+    }
+    .grid3d:hover{
+        color: aquamarine;
+         }      
+    .grid3f{
+        position:absolute;
+        left:354px;
+        top: 95px;
+        font-size: 18px;
+        color: aliceblue;
+        
+        }
+        .grid3f:hover{
+            border-bottom:1px solid white ;
+         }
+         .grid3g{
+       
+            position: absolute;
+            font-size:27px;
+            left: 441px;
+            top: 122px;
+    }
+    .grid3g:hover{
+        color: aquamarine;
+         }      
+    
+    
+    
+.grid4{
+    
+    color: #fff;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-size: 0px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: none;
+    background-image: url(bts22-b-950x580-desktop.jpg);
+    background-color: #555;
+    position: relative;
+    background-size: contain;
+
+}
+.grid4 h2{
+    color: #fff;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: none;
+    position: absolute;
+    top: 15px;
+    left: 213px;
+}
+.grid4 h4{
+    font-size: 20px;
+    color: #fff;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    line-height: 1.3;
+    position: absolute;
+    top: 62px;
+    left: 168px;
+}
+.grid4c{
+    position:absolute;
+    left:211px;
+    top: 95px;
+    font-size: 18px;
+    color: aliceblue;
+    
+    }
+    .grid4c:hover{
+        border-bottom:1px solid white ;
+     }
+ .grid4d{
+   
+        position: absolute;
+        font-size:25px;
+        left: 428px;
+        top: 122px;
+}
+.grid4d:hover{
+    color: aquamarine;
+     }     
+.grid5{
+    color: #fff;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-size: 0px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: none;
+    background-image: url(razrchr.jpg);
+    background-color: #555;
+    position: relative;
+    background-size: contain;
+}
+.grid5 h2{
+    color: #fff;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: none;
+    position: absolute;
+    top: 15px;
+    left: 103px;
+}
+.grid5 h4{
+    font-size: 20px;
+    color: #fff;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    line-height: 1.3;
+    position: absolute;
+    top: 62px;
+    left: 168px;
+}
+.grid5c{
+    position:absolute;
+    left:211px;
+    top: 95px;
+    font-size: 18px;
+    color: aliceblue;
+    
+    }
+    .grid5c:hover{
+        border-bottom:1px solid white ;
+     }
+ .grid5d{
+   
+        position: absolute;
+        font-size:25px;
+        left: 314px;
+        top: 122px;
+}
+.grid6d:hover{
+    color: aquamarine;
+     }     
+    
+     .grid6{
+        color: #fff;
+        font-family: "RazerF5",Arial,Helvetica,sans-serif;
+        font-size: 0px;
+        font-weight: 500;
+        line-height: 1;
+        text-transform: none;
+        background-image: url(razer-brand-campaign-2022-b-950x580-desktop.jpg);
+        background-color: #555;
+        position: relative;
+        background-size: contain;
+    }
+    .grid6 h2{
+        color: #fff;
+        font-family: "RazerF5",Arial,Helvetica,sans-serif;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 1;
+        text-transform: none;
+        position: absolute;
+        top: 15px;
+        left: 103px;
+    }
+    .grid6 h4{
+        font-size: 20px;
+        color: #fff;
+        font-family: "RazerF5",Arial,Helvetica,sans-serif;
+        font-weight: 300;
+        line-height: 1.3;
+        position: absolute;
+        top: 62px;
+        left: 168px;
+    }
+    .grid6c{
+        position:absolute;
+        left:179px;
+        top: 95px;
+        font-size: 18px;
+        color: aliceblue;
+        
+        }
+        .grid6c:hover{
+            border-bottom:1px solid white ;
+         }
+     .grid6d{
+       
+            position: absolute;
+            font-size:25px;
+            left: 411px;
+            top: 122px;
+    }
+    .grid6d:hover{
+        color: aquamarine;
+         } 
+    
+    
+    
+    .footer{
+        width: 100%;
+        height:360px;
+        background-color:aqua;
+        display: flex;
+
+    }
+    
+    .ftrsec1{
+        height:360px;
+        width:69%;
+        background-color: blueviolet;
+        display: flex;
+    }
+    .ftr{
+        background-color:#222;
+        height:360px;
+        width: 31%;
+    
+        
+        
+       }
+    .Shop{
+        height:360px;
+      width:25%;
+      background-color:#222;
+    }
+     
+      .Shop h3{
+       text-align: center;
+       color: #fff; 
+    
+    }
+    .shoplist{
+        list-style: none;
+       cursor: pointer;
+       
+    }
+    .shoplist ul{
+        
+    }
+    .shoplist li{
+        color:  #999;
+        padding: 5px 0px;
+        padding-left:30px;
+       
+    }
+    .shoplist li:hover{
+         text-decoration: underline;
+         color: #fff;
+    }
+
+    .Explore{
+        height:360px;
+        width:25%;
+        background-color: #222;
+        text-align: center;
+        
+    }
+    .explr4{
+        color: #fff;
+        
+    }
+    .explr1{
+        color:  #999;
+        list-style: none;
+        cursor: pointer;
+        padding-left: 0px;
+        
+    }
+    .explr1 li{
+        padding: 9px 0px;
+    }
+    .explr1 li:hover{
+        text-decoration: underline;
+        color: #fff;
+    }
+    .Support{
+        height:360px;
+        width:25%;
+        background-color:#222
+        
+    }
+    .Supportlist{
+        color:#fff;
+        text-align: center;
+    }
+    .sprtlist{
+        list-style: none;
+        
+        
+    }
+    .sprtlist li{
+        color: #999;
+        padding: 10px;
+        text-align: center;
+       
+    }
+    .sprtlist li:hover{
+        text-decoration: underline;
+        color: #fff;
+    }
+    .Company{
+        
+        height:360px;
+        width:25%;
+        background-color:#222
+    }
+    
+    .companylist{
+        color:#fff;
+        text-align: center;
+    }
+    .cmpny1{
+        list-style: none;
+        
+        
+    }
+    .cmpny1 li{
+        color: #999;
+        padding: 10px;
+        text-align: center;
+       
+    }
+    .cmpny1 li:hover{
+        text-decoration: underline;
+        color: #fff;
+    }
+    .ftrend{
+        background-color: #999;
+        width:35%;
+        height:360px;
+    }
+    .ftr{
+        color: chartreuse;
+        font-size: 35px;
+        text-align: center;
+        position: relative;
+    }
+    .facebook{
+        position: absolute;
+        top:97px;
+        left:136px
+    }
+    .instagram{
+        position: absolute;
+        top:97px;
+        left:187px
+  
+    }
+    .twitter{
+        position: absolute;
+        top:97px;
+        left:236px
+
+    }
+    .lstfooter{
+        width:100%;
+        height: 30px;
+        background-color: darkgoldenrod;
+    }
+    #idtag{
+        color: brown;
+    }
+   .linedivider{
+    border-bottom: 1px solid beige;
+    margin:1px;
+
+
+
+   }
+   .lxtsct{
+    height: 40px;
+    width: 100%;
+    background-color: #222;
+    color:#999;
+    position: relative;
+    display: flex;
+    
+   }
+   .lxt3{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    text-align: right;
+
+   }
+   .ullxt3{
+    list-style: none;
+    color: #999;
+    display: flex;
+    ;
+    
+   }
